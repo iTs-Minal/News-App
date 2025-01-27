@@ -1,12 +1,17 @@
-
+import Category from "./components/Category"
+import Footer from "./components/Footer/Footer"
+import Header from "./components/Header/Header"
 
 function App() {
   return (
-    <div>
-        <h1 className="text-3xl font-bold underline">
-    News app
-  </h1>
+    <>
+    <div className="bg-gray-800 w-full h-screen">
+      <Header/>
+      <Category/>
+      
     </div>
+    <Footer/>
+    </>
   )
 }
 
